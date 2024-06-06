@@ -1,0 +1,373 @@
+*{
+    font-family: Arial;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+.header{
+    display: flex;
+    margin-bottom: 20px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+
+.shapka{
+    font-weight:bold;
+    margin-top: 25px;
+    margin-left: 42px;
+    letter-spacing: 0.13em;
+}
+
+.shap{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 11px;
+    gap: 13px;  
+    border: none;
+}
+
+.tutu{
+    display: flex;
+    gap: 13px;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.tuta{
+    margin-top: 15px;
+}
+
+
+
+
+.shap select{
+    border: none;
+}
+
+.sh{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 870px;
+    width: 20px;
+    height: 20px;
+    
+}
+
+.shi{
+    
+    display: flex;
+    margin-top: 25px;
+    margin-left: 40px;
+    width: 20px;
+    height: 20px;
+    gap: 40px;
+    
+    
+}
+
+.s{
+    margin-top: 25px;
+}
+
+.img{
+    width: 100%;
+}
+.text1{
+    position: absolute;
+    top: 520px;
+    left: 50px;
+    color: white;
+    font-size: 20px;
+    
+}
+.text2{
+    position: absolute;
+    top: 555px;
+    left: 50px;
+    color: white;
+    font-size: 80px;
+}
+
+.img2{
+    margin-top: 90px;
+    margin-left: 40px;
+}
+
+.text3{
+    position: absolute;
+    top: 1400px;
+    font-size: 50px;
+    right: 480px;
+    
+    
+}
+.text4{
+    position: absolute;
+    top: 1570px;
+    font-size: 15px;
+    right: 358px;
+    
+}
+
+.text5{
+    position: absolute;
+    top: 1650px;
+    font-size: 17px;
+    right: 674px;
+    
+}
+
+.img3{
+    width: 100%;
+    margin-top: 90px;
+}
+
+.text6{
+    position: absolute;
+    top: 240%;
+    left: 130px;
+    color: white;
+    font-size: 70px;
+    font-family: Arial;
+    letter-spacing: 0.04em;
+    
+}
+.text7{
+    position: absolute;
+    top: 275%;
+    left: 130px;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0.065em;
+    
+}
+
+.img4{
+    margin-top: 90px;
+    margin-left: 60px;
+}
+
+.text8{
+    position: absolute;
+    top: 348%;
+    font-size: 45px;
+    right: 460px;
+
+}
+
+.text9{
+    position: absolute;
+    top: 365%;
+    font-size: 15px;
+    right: 358px;
+}
+.text10{
+    position: absolute;
+    top: 375%;
+    font-size: 17px;
+    right: 715px;
+}
+
+.img5{
+    margin-left: 1160px;
+    margin-top: 180px;
+}
+
+
+.text12{
+    font-size: 50px;
+    position: absolute;
+    top: 430%;
+    left: 300px;
+    font-family: Arial;
+}
+
+.text13{
+    font-size: 20px;
+    position: absolute;
+    top: 439%;
+    left: 340px;
+    font-family: Arial;
+}
+.img6{
+    position: absolute;
+    top: 4088px;
+    left: 300px;
+}
+
+.text14{
+    font-size: 14px;
+    position: absolute;
+    top: 443%;
+    left: 337px;
+    font-family: Arial;
+    color: rgb(179, 179, 179);
+}
+
+.text15{
+    font-size: 20px;
+    position: absolute;
+    top: 452%;
+    left: 340px;
+    font-family: Arial;
+}
+
+.img7{
+    position: absolute;
+    top: 4210px;
+    left: 300px;
+}
+
+.text16{
+    font-size: 14px;
+    position: absolute;
+    top: 456%;
+    left: 337px;
+    font-family: Arial;
+    color: rgb(179, 179, 179);
+}
+.text17{
+    font-size: 20px;
+    position: absolute;
+    top: 462%;
+    left: 340px;
+    font-family: Arial;
+}
+
+.img8{
+    position: absolute;
+    top: 4301px;
+    left: 300px;
+}
+
+.text18{
+    font-size: 14px;
+    position: absolute;
+    top: 466%;
+    left: 337px;
+    font-family: Arial;
+    color: rgb(179, 179, 179);
+}
+
+.text19{
+    font-size: 20px;
+    position: absolute;
+    top: 472%;
+    left: 340px;
+    font-family: Arial;
+}
+
+.text20{
+    font-size: 14px;
+    position: absolute;
+    top: 476%;
+    left: 337px;
+    font-family: Arial;
+    color: rgb(179, 179, 179);
+}
+
+.img9{
+    position: absolute;
+    top: 4396px;
+    left: 300px;
+}
+
+.aboba{
+    display: flex;
+    gap: 300px;
+    margin-left: 153px;
+    margin-top: 199px;
+}
+
+.aboba1{
+    display: flex;
+    gap: 440px;
+    margin-left: 215px;
+    top: 535%;
+    position: absolute;
+}
+
+.aboba2{
+    display: flex;
+    gap: 520px;
+    position: absolute;
+    margin-left: 200px;
+    top: 560%;
+}
+
+.aboba3{
+    display: flex;
+    gap: 520px;
+    position: absolute;
+    margin-left: 1135px;
+    top: 560%;
+}
+
+.aboba4{
+    display: flex;
+    gap: 10px;
+    margin-left: 360px;
+    top: 590%;
+    position: absolute;
+}
+
+.aboba5{
+    display: flex;
+    gap: 10px;
+    margin-left: 1317px;
+    top: 590%;
+    position: absolute;
+}
+
+.zag{
+    display: flex;
+    position: absolute;
+    top: 532%;
+    margin-left: 180px;
+    
+}
+
+.zag1{
+    margin-left: 8px;
+    font-size: 35px;
+}
+
+
+.zag4{
+    margin-left: 380px;
+    font-size: 35px;
+}
+
+.zag3{
+    margin-left: 150px;
+    font-size: 21px;
+    margin-top: 12px;
+}
+
+.zag6{
+    margin-left: 160px;
+    font-size: 21px;
+    margin-top: 12px;
+
+}
+
+.zag2{
+    margin-left: 10px;
+}
+
+.zag5{
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
