@@ -3,14 +3,23 @@
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
+   
+    
 }
 
+
+ 
+
 .header{
+    border: none;
     display: flex;
     margin-bottom: 20px;
     position: fixed;
     background-color: white;
     width: 100%;
+    z-index: +100;
+    
+
 }
 
 .shapka{
@@ -24,8 +33,9 @@
     display: flex;
     margin-left: 100px;
     margin-top: 11px;
-    gap: 13px;  
-    border: none;
+    gap: 13px;   
+    
+
 }
 
 .tutu{
@@ -38,13 +48,6 @@
 
 .tuta{
     margin-top: 15px;
-}
-
-
-
-
-.shap select{
-    border: none;
 }
 
 .sh{
@@ -180,7 +183,7 @@
 .text12{
     font-size: 50px;
     position: absolute;
-    top: 430%;
+    top: 416%;
     left: 300px;
     font-family: Arial;
 }
@@ -188,7 +191,7 @@
 .text13{
     font-size: 20px;
     position: absolute;
-    top: 439%;
+    top: 425%;
     left: 340px;
     font-family: Arial;
 }
@@ -201,7 +204,7 @@
 .text14{
     font-size: 14px;
     position: absolute;
-    top: 443%;
+    top: 429%;
     left: 337px;
     font-family: Arial;
     color: rgb(179, 179, 179);
@@ -210,7 +213,7 @@
 .text15{
     font-size: 20px;
     position: absolute;
-    top: 452%;
+    top: 438%;
     left: 340px;
     font-family: Arial;
 }
@@ -224,7 +227,7 @@
 .text16{
     font-size: 14px;
     position: absolute;
-    top: 456%;
+    top: 442%;
     left: 337px;
     font-family: Arial;
     color: rgb(179, 179, 179);
@@ -232,7 +235,7 @@
 .text17{
     font-size: 20px;
     position: absolute;
-    top: 462%;
+    top: 447%;
     left: 340px;
     font-family: Arial;
 }
@@ -246,7 +249,7 @@
 .text18{
     font-size: 14px;
     position: absolute;
-    top: 466%;
+    top: 451%;
     left: 337px;
     font-family: Arial;
     color: rgb(179, 179, 179);
@@ -255,7 +258,7 @@
 .text19{
     font-size: 20px;
     position: absolute;
-    top: 472%;
+    top: 457%;
     left: 340px;
     font-family: Arial;
 }
@@ -263,7 +266,7 @@
 .text20{
     font-size: 14px;
     position: absolute;
-    top: 476%;
+    top: 460%;
     left: 337px;
     font-family: Arial;
     color: rgb(179, 179, 179);
@@ -286,8 +289,9 @@
     display: flex;
     gap: 440px;
     margin-left: 215px;
-    top: 535%;
+    top: 517%;
     position: absolute;
+    
 }
 
 .aboba2{
@@ -295,7 +299,7 @@
     gap: 520px;
     position: absolute;
     margin-left: 200px;
-    top: 560%;
+    top: 540%;
 }
 
 .aboba3{
@@ -303,14 +307,14 @@
     gap: 520px;
     position: absolute;
     margin-left: 1135px;
-    top: 560%;
+    top: 540%;
 }
 
 .aboba4{
     display: flex;
     gap: 10px;
     margin-left: 360px;
-    top: 590%;
+    top: 570%;
     position: absolute;
 }
 
@@ -318,14 +322,14 @@
     display: flex;
     gap: 10px;
     margin-left: 1317px;
-    top: 590%;
+    top: 570%;
     position: absolute;
 }
 
 .zag{
     display: flex;
     position: absolute;
-    top: 532%;
+    top: 510%;
     margin-left: 180px;
     
 }
@@ -360,6 +364,242 @@
 
 .zag5{
     margin-left: 10px;
+}
+
+.get{
+    font-size: 50px;
+    position: absolute;
+    top: 613%;
+    left: 780px;
+    font-family: Arial;
+}
+
+.polya{
+    margin-top: 24%;
+    
+}
+.FN{
+    width: 58%;
+    height: 50px;
+    border-radius: 5px;
+    border-color: rgb(221, 221, 221);
+    margin-left: 20%;
+    border: 1;
+    padding: 0.375rem 0.75rem;
+    font-size: 1.1rem;
+    border: 1px solid #bdbdbd
+}
+
+.LN{
+    width: 58%;
+    height: 50px;
+    border-radius: 5px;
+    border-color: rgb(226, 226, 226);
+    margin-left: 20%;
+    margin-top: 27px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1.1rem;
+    border: 1px solid #bdbdbd
+}
+
+.EA{
+    width: 58%;
+    height: 50px;
+    border-radius: 5px;
+    border-color: rgb(226, 226, 226);
+    margin-left: 20%;
+    margin-top: 27px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1.1rem;
+    border: 1px solid #bdbdbd
+}
+
+.PN{
+    width: 58%;
+    height: 50px;
+    border-radius: 5px;
+    border-color: rgb(226, 226, 226);
+    margin-left: 20%;
+    margin-top: 27px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1.1rem;
+    border: 1px solid #bdbdbd
+}
+
+.CN{
+    width: 58%;
+    height: 50px;
+    border-radius: 5px;
+    border-color: rgb(226, 226, 226);
+    margin-left: 20%;
+    margin-top: 27px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1.1rem;
+    border: 1px solid #bdbdbd
+}
+
+.CS{
+    width: 59%;
+    height: 65px;
+    border-radius: 5px;
+    border-color: rgb(226, 226, 226);
+    margin-left: 20%;
+    margin-top: 27px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1.1rem;
+    border: 1px solid #bdbdbd;
+    color: #747474;
+}
+
+.NOB{
+    width: 58%;
+    height: 50px;
+    border-radius: 5px;
+    border-color: rgb(226, 226, 226);
+    margin-left: 20%;
+    margin-top: 27px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1.1rem;
+    border: 1px solid #bdbdbd
+}
+
+.HCWH{
+    width: 58%;
+    height: 410px;
+    border-radius: 5px;
+    border-color: rgb(226, 226, 226);
+    margin-left: 20%;
+    margin-top: 27px;
+    padding: 0.875rem 0.75rem;
+    font-size: 1.1rem;
+    border: 1px solid #bdbdbd;
+    resize: none;
+}
+
+.STR{
+    width: 58.5%;
+    height: 50px;
+    border-radius: 25px;
+    margin-left: 20.5%;
+    border: none;
+    background-color: gray;
+    color: white;
+    font-size: 16px;
+    margin-top: 27px;
+    margin-bottom: 110px;
+}
+.block8{
+    border-bottom: 1px solid #dfdfdf;
+    
+}
+
+
+.block9{
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+    display: grid;
+}
+
+.Any{
+    font-size: 120px;
+    margin-bottom: 0;
+}
+.What{
+    display: flex;
+    width: 102%;
+    font-size: 25px;
+    border-top: 1px solid  #dfdfdf;
+    padding-top: 40px;
+    justify-content: space-between;
+}
+
+.minus{
+    
+    border: none;
+    background-color:white;
+    color: black;
+    font-size: 30px;
+}
+
+
+.opis{
+    display: flex;
+    font-size: 14px;
+    color: rgb(179, 179, 179);
+    margin-bottom: 30px;
+}
+
+.How{
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    border-top: 1px solid  #dfdfdf;
+    padding-bottom: 3% ;
+    padding-top: 5%;
+    border-bottom: 1px solid  #dfdfdf;
+}
+.plus1{
+    justify-content: space-between;
+    border: none;
+    background-color:white;
+    color: black;
+    font-size: 30px;
+}
+
+.Veloret{
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    padding-bottom: 3% ;
+    padding-top: 5%;
+    border-bottom: 1px solid  #dfdfdf;
+}
+.plus2{
+    justify-content: space-between;
+    border: none;
+    background-color:white;
+    color: black;
+    font-size: 30px;
+}
+
+.insurance{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    padding-bottom: 3% ;
+    padding-top: 5%;
+    border-bottom: 1px solid  #dfdfdf;
+}
+.plus3{
+    justify-content: space-between;
+    border: none;
+    background-color:white;
+    color: black;
+    font-size: 30px;
+}
+
+.legal{
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    padding-bottom: 3% ;
+    padding-top: 5%;
+    border-bottom: 1px solid  #dfdfdf;
+    
+}
+.plus4{
+    justify-content: space-between;
+    border: none;
+    background-color:white;
+    color: black;
+    font-size: 30px;
+}
+
+
+.Any p{
+    margin: 0;
+    margin-bottom: 70px;
 }
 
 

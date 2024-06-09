@@ -229,9 +229,55 @@ function App() {
       <p>€69,07 NET/MONTH</p>
     </div>
     </div>
-   
-   
-
+    <div className="block8">
+      <div className="polya">
+        <div className="get">
+          <p>Get in touch</p>
+        </div>
+        <input placeholder="First name" className="FN"></input>
+        <input placeholder="Last name" className="LN"></input>
+        <input placeholder="Email address" className="EA"></input>
+        <input placeholder="Phone number" className="PN"></input>
+        <input placeholder="Company name" className="CN"></input>
+        <select className="CS">
+          <option>Company Size</option>
+        </select>
+        <input placeholder="Number of bikes" className="NOB"></input>
+        <textarea placeholder="How can we help" className="HCWH" multiple></textarea>
+        <button className="STR">Send the request</button>
+      </div>
+    </div>
+    <div className="block9">
+      <div className="Any">
+        <p>Any questions?</p>  
+      </div>
+      <div className="What">
+        <p>What about the paperwork?</p>
+        <button className="minus">-</button>
+      </div>
+      <div className="opis">
+        <p>The bicycle plan is set up so that there will be no administrative work on your part as the employer. You can use a free online platform<br></br>
+        that has been created by our leasing partner. This provides you with a simple overview of your business and your employees, allowing<br></br>
+        you to arrange everything. It also simplifies all the paperwork. Everything is organised with just a few clicks.</p>
+      </div>
+      <div className="How">
+        <p>How does it work with an employee who retires early?</p>
+        <button className="plus1">+</button>
+      </div>
+      <div className="Veloret">
+        <p>What does a Veloretti Bike Plan cost for an employer?</p>
+        <button className="plus2">+</button>
+      </div>
+      <div className="insurance">
+        <p>How is the insurance & maintenance arranged when leasing a Veloretti<br></br>
+        bike?</p>
+        <button className="plus3">+</button>
+      </div>
+      <div className="legal">
+        <p>What are the legal requirements for the Veloretti bicycle plan?</p>
+        <button className="plus4">+</button>
+      </div>
+    </div>
 
 
   </div>
