@@ -29,7 +29,11 @@ import butt5 from "./картинки/butt5.svg"
 import butt6 from "./картинки/butt6.svg"
 import butt7 from "./картинки/butt7.svg"
 import butt8 from "./картинки/butt8.svg"
-
+import pum1 from "./картинки/pum1.svg"
+import pum2 from "./картинки/pum2.svg"
+import pum3 from "./картинки/pum3.svg"
+import pum4 from "./картинки/pum4.svg"
+import pum5 from "./картинки/pum5.svg"
 
 
 
@@ -138,6 +142,7 @@ function App() {
   <div className="gaga">
         <img src={block5} className="img5"></img>
       </div>
+    
     <div className="text12">
       <p>How it works</p>
     </div>
@@ -165,7 +170,8 @@ function App() {
     </div>
     <div className="text20">
     <p>Everything in one place. The digital platform gives you an easy<br></br>overview of all the information for your payroll.</p>
-    </div>
+  
+  </div>
     <div className="punkt1">
     <img src={krug1} className="img6"></img>
     </div>
@@ -278,9 +284,89 @@ function App() {
         <button className="plus4">+</button>
       </div>
     </div>
+    <div className="book">
+    <div className="text21">
+      <p>Ready to take the Electric Ivy or Ace for a spin? Electric test rides are now available in<br></br>
+        Amsterdam, Amstelveen, Abcoude, Bussum, Den Haag, Nijmegen, Weesp, Wormerveer,<br></br>
+        Berlin, Hamburg and Munich. Schedule your test ride now and we'll see you there.</p>
+        <button className="bn">BOOK NOW</button>
+    </div>
+    </div>
 
 
+
+  <div className="pipi">
+    <div className="slolb1">
+      <div className="ex">
+        <p>Exploler</p>
+      </div>
+      <div className="spiski">
+        <p className="aa">Electric bikes</p>
+        <p className="aa">City bikes</p>
+        <p className="aa">Kids' bikes</p>
+        <p className="aa">Accessories</p>
+        <p className="aa">Outlet</p>
+        <p className="aa">Business</p>
+        <p className="aa">Insurance Electric</p>
+        <p className="aa">Size guide</p>
+      </div>
+    </div>
+    <div className="slolb2">
+      <div className="ab">
+        <p>About</p>
+      </div>
+      <div className="spiski2">
+        <p className="aa">About us</p>
+        <p className="aa">Journal</p>
+        <p className="aa">Reviews</p>
+        <p className="aa">Press</p>
+        <p className="aa">Jobs</p>
+      </div>
+    </div>
+    <div className="slolb3">
+      <div className="hp">
+        <p>Help</p>
+      </div>
+      <div className="spiski3">
+        <p className="aa">Contact</p>
+        <p className="aa">FAQ</p>
+        <p className="aa">Delivery</p>
+        <p className="aa">Assembly & manuals</p>
+        <p className="aa">Payment options</p>
+        <p className="aa">Privacy policy</p>
+        <p className="aa">Terms & conditions</p>
+      </div>
+    </div>
+    <div>
+      <div className="tyty">
+      <div className="right">
+        <p>Join the ride.</p>
+        <p className="ooo">Sign up for our newsletter.</p>
+      </div>
+      <div className="text1212">
+        <input placeholder="Enter your email address herep" className="popa" multiple></input>
+        <button className="knopka11">Subscribe</button>
+      </div>
+      <div className="galo4ka">
+        
+        <input type="checkbox"></input>
+        
+        <p className="kryto">By signing up, I agree to the privacy policy of Veloretti.</p>
+      </div>
+      <div className="pipi2">
+        <img src={pum1} className="pum1"></img>
+        <img src={pum2} className="pum2"></img>
+        <img src={pum3} className="pum3"></img>
+        <img src={pum4} className="pum4"></img>
+        <img src={pum5} className="pum5"></img>
+      </div>
+      </div>
+    </div>
   </div>
+
+
+
+</div>
     </>
   );
 }
